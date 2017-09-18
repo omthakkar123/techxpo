@@ -95,7 +95,7 @@ header a, a:visited {
 }
 
 .clouds{
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    background:transparent url(../images/clouds3.png) repeat top center;
     z-index:3;
 
   -moz-animation:move-clouds-back 200s linear infinite;
@@ -178,8 +178,8 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	margin-left: -100px !important;
 }
 .title{
-	font-family:MyRiad Pro-Bold;
-	color:#00fff4;
+	font-family:Lemon Milk;
+	color:#ffffff;
 	font-size: 30px;
 	margin-left: 130px;
 	margin-top: 50px;
@@ -1123,6 +1123,7 @@ h6.bed.four{
     -o-background-size: cover;
 	position:relative;
 	padding-bottom: 3em;
+	background-attachment: fixed;
 }
 .contact-top {
     position: absolute;
