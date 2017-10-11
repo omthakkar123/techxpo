@@ -79,12 +79,12 @@ header a, a:visited {
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background:#000 url(../images/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:transparent url(../images/twinkling.png) repeat top center;
   z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
@@ -110,12 +110,16 @@ header a, a:visited {
 	src:url("../fonts/Lemon Milk.otf");
 }
 @font-face{
-	font-family: MyRiad Pro-Bold;
-	src:url("../fonts/MyriadPro-Bold.otf");
+	font-family: Protos;
+	src:url("../fonts/Protos.otf");
 }
 @font-face{
 	font-family:MyriadPro-Regular;
 	src:url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face{
+	font-family:MyriadPro-Semibold;
+	src:url("../fonts/MyriadPro-Semibold.otf");
 }
 
 body{
@@ -135,7 +139,7 @@ body a{
 h1,h2,h3,h4,h5,h6{
 	margin:0;
 
-	font-family: 'MyriadPro-Regular', serif;
+	font-family: 'Protos', serif;
 
 }
 p{
@@ -171,14 +175,16 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .headstyle{
 	padding: 3em;
-	font-size: 16px !important;
+	font-size: 12px !important;
+	margin-right: -75px !important;
+	margin-top: 10px !important;
 }
 .navstyle{
 	margin-top: 5px !important;
 	margin-left: -100px !important;
 }
 .title{
-	font-family:Lemon Milk;
+	font-family: Protos;
 	color:#ffffff;
 	font-size: 30px;
 	margin-left: 130px;
@@ -188,7 +194,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-	font-family: MyRiad Pro-Bold;
+	font-family: Protos;
     font-size: 1.1em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -1133,7 +1139,7 @@ h6.bed.four{
 }
 p.sub-text {
     text-align: center;
-    letter-spacing: 9px;
+    letter-spacing: 6px;
     color: #168eea;
 }
 h3.title-w3 {
