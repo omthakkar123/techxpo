@@ -136,11 +136,14 @@ body a{
 	text-decoration:none;
 	outline:none;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h6{
 	margin:0;
-
 	font-family: 'Protos', serif;
-
+}
+h5{
+  text-align:right;
+  margin:0;
+  font-family: 'Protos', serif;
 }
 p{
 	margin:0;
@@ -193,6 +196,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	
 }
 .navbar-default .navbar-nav > li > a {
+    background-color: transparent;
     color: #fff;
 	font-family: Protos;
     font-size: 1.1em;
@@ -1936,11 +1940,11 @@ section.social ul li {
 		text-align: center;
 	}
 	.navbar-default .navbar-toggle {
-		border-color: #f44336;
-		background: #f44336;
+		border-color: #414141;
+		background: #414141;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: #f44336;
+		background-color: #414141;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
