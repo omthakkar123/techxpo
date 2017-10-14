@@ -1,7 +1,7 @@
 /*! Magnific Popup - v0.9.9 - 2013-11-15
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2013 Dmitry Semenov; */
-;(function($) {
+jQuery(document).ready(function($){
 
 /*>>core*/
 /**
@@ -2036,7 +2036,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 		$(this).off('touchstart' + ns + ' click' + ns);
 		if(supportsTouch) _window.off('touchmove'+ns+' touchend'+ns);
 	};
-})();
-
-/*>>fastclick*/
+	/*>>fastclick*/
  _checkInstance(); })(window.jQuery || window.Zepto);
+});
+
