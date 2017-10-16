@@ -136,14 +136,9 @@ body a{
 	text-decoration:none;
 	outline:none;
 }
-h1,h2,h3,h4,h6{
+h1,h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'Protos', serif;
-}
-h5{
-  text-align:right;
-  margin:0;
-  font-family: 'Protos', serif;
 }
 p{
 	margin:0;
@@ -679,6 +674,7 @@ p.sub-text.one {
 	 
 }
 .caption h5{
+  text-align:center;
 	font-size:2em;
 	color:#fff;
 	letter-spacing:2px;
