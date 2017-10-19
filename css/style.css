@@ -31,7 +31,6 @@ to{background-position:10000px 0;}
 .stars{background:#000 url(../images/stars.png) repeat top center;z-index:0;}
 .twinkling{background:transparent url(../images/twinkling.png) repeat top center;z-index:1;-moz-animation:move-twink-back 200s linear infinite;-ms-animation:move-twink-back 200s linear infinite;-o-animation:move-twink-back 200s linear infinite;-webkit-animation:move-twink-back 200s linear infinite;animation:move-twink-back 200s linear infinite;}
 .clouds{background:transparent url(../images/clouds3.png) repeat top center;z-index:3;-moz-animation:move-clouds-back 200s linear infinite;-ms-animation:move-clouds-back 200s linear infinite;-o-animation:move-clouds-back 200s linear infinite;-webkit-animation:move-clouds-back 200s linear infinite;animation:move-clouds-back 200s linear infinite;}
-@font-face{font-family:Lemon Milk;src:url("../fonts/Lemon Milk.otf");}
 @font-face{font-family:Protos;src:url("../fonts/Protos.otf");}
 @font-face{font-family:MyriadPro-Regular;src:url("../fonts/MyriadPro-Regular.otf");}
 @font-face{font-family:MyriadPro-Semibold;src:url("../fonts/MyriadPro-Semibold.otf");}
