@@ -1,382 +1,274 @@
 <!DOCTYPE html>
-<html lang=en>
-<title>TechXposure 2017 - 18</title>
-<link href=android-chrome-192x192.png rel=apple-touch-icon sizes=192x192>
-<link href=images/favicon.png rel=icon sizes=32x32 type=image/png>
-<link href="images/favicon-16x16.png" rel=icon sizes=16x16 type=image/png>
-<link href=/safari-pinned-tab.svg rel=mask-icon color=#5bbad5>
-<meta content=#000000 name=theme-color>
-<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"name=viewport>
-<meta content="text/html; charset=utf-8"http-equiv=Content-Type>
-<link href=css/bootstrap.css rel=stylesheet media=all>
-<link href=css/popup-box.css rel=stylesheet media=all>
-<link href=css/style.css rel=stylesheet media=all>
-<link href=css/main-gallery.css rel=stylesheet media=screen>
-<link href=css/font-awesome.css rel=stylesheet>
-<link href="css/jm.spinner.css" rel="stylesheet" />
-<script src=js/jquery-2.2.3.min.js async></script>
+<html lang="en">
+<head>
+    <title>TechXposure 2019</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Techxposure 2019 Tech Event Organised by S.K. Somaiya College Of Arts, Science And Commerce">
+  <meta name="keywords" content="TechXposure, template, html, sass, jquery">
+  <meta name="author" content="Om Thakkar">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/modules/lightbox.css">
+</head>
+<body>
 
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/txp.png" width="60px" alt="TechXposure">
+    <p>TechXposure 2019</p>
+  </a>
+  <p class="device-notification--message">TechXposure has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-<body data-spy=scroll data-target=.navbar-fixed-top id=page-top>
-
-<div class=w3ls-banner id=home>
-  <div class=slider>
-    <div class=callbacks_container><img src=images/TechBG.jpg class=mainstyle>
-      <div class=stars></div>
-      <div class=twinkling>
-        <div style=position:relative;display:flex;align-items:center;justify-content:center;margin-top:250px;overflow:hidden;width:100%;overflow-x:hidden!important><img src=images/txp.gif height=283px width=500px></div>
-      </div>
-      <div class=clouds></div>
-      <div class=main>
-        <div id=particles-js3></div>
-      </div>
-    </div>
-    <div class=clearfix></div>
-  </div>
-  <div class=header-w3layouts>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class=container>
-        <div class="page-scroll navbar-header">
-          <button class=navbar-toggle type=button data-target=.navbar-ex1-collapse data-toggle=collapse><span class=sr-only>TECHXPOSURE 2018</span> </button>
-          <h1><a href=index.html class="navbar-brand navstyle"><img src=images/txp.svg height=90px width=200px></a></h1>
-          <h1 class="title">TECHXPOSURE</h1>
-           <h6 class="subtitle">2018</h6>
-        </div>
-        <div class="collapse headstyle navbar-collapse navbar-ex1-collapse">
-
-          <ul class="nav navbar-nav navbar-right">
-            <li class=hidden><a href=#page-top class=page-scroll></a>
-            <li><a href=#home class="page-scroll scroll">Home</a>
-            <li><a href=#about class="page-scroll scroll">About</a>
-            <li><a href=#classes class="page-scroll scroll">Events</a>
-            <li><a href=#speakers class="page-scroll scroll">Speakers</a>
-            <li><a href=#gallery class="page-scroll scroll">Sponsors</a>
-            <li><a href=#contact class="page-scroll scroll">Contact</a>
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/txp.png" width="60px" alt="TechXposure">
+            <p>TechXposure 2019</p>
+          </a>
+          <button class="header--cta cta">Register Now</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>About</span></li>
+            <li><span>Events</span></li>
+            <li><span>Sponsors</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Register</span></li>
           </ul>
-        </div>
-      </div>
-  </div>
-</div>
-<marquee onMouseOver="this.stop();" onMouseOut="this.start();">Welcome to the web portal of TechXposure 2018.</marquee>
-<div class="clearfix"></div>
-<div class=about id=about>
-  <div class="col-md-6 ab-w3-agile-info">
-    <div class=ab-w3-agile-info-text>
-      <h2 class=title-w3>About TXP</h2>
-      <p class="sub-text one">
-      <p>In the world full of infinite possibilities and opportunities, there lies a whole lot of innovators, tech enthusiasts or geeks who are just waiting for a chance to do something magical to show their talent. With the aim that technology reaches every hand, the IT and CS department of S.K. Somaiya kick starts its first tech fest extending invitation to all colleges for participation.
-    </div>
-    <div class=ab-w3-agile-inner>
-    <div class="col-md-6 ab-w3-agile-part one why">
-        <h4>Why TechXposure?</h4>
-        <p>It aims in providing a platform to people to showcase their innovative projects, whilst competing to be the best among all other colleges, infront of various startups and potential investors. Giving an exposure to the various aspects of technology, meet and greet with various renowned speakers, indulging into various tech based competitions and hereby knowing their true potential is what we look forward to.
-      </div>
-      <div class=clearfix></div>
-    </div>
-  </div>
-  <div class="col-md-6 ab-w3-agile-img"></div>
-  <div class=clearfix></div>
-</div>
-<div class="fade modal"id=myModal role=dialog tabindex=-1>
-  <div class=modal-dialog>
-    <div class=modal-content>
-      <div class=modal-header>
-        <button class=close type=button data-dismiss=modal>×</button>
-        <img src=images/2.jpg alt=" "class=img-responsive>
-        <h5>S.K. Somaiya Techxposure</h5>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, rds which don't look even slightly believable..
-      </div>
-    </div>
-  </div>
-</div>
-<div class=services id=classes>
-  <div class=container>
-    <h3 class=title-w3>TechXposure Events</h3>
-    <p class=sub-text>Choose Your Event
-    <div class=wthree-agile-classes-section>
-      <div class="col-md-3 class-grid">
-        <div class="class-grid-img hvr-sweep-to-top"><img src=images/x1.jpg alt="">
-          <div class=caption>
-            <p data-target=#myModalc1 data-toggle=modal href=# style="font-family:MyriadPro-Semibold;font-size:1.4em;font-color:#fff">Learn More
-          </div>
-        </div>
-        <div class="fade modal" id="myModalc1" role="dialog" tabindex="-1">
-          <div class=modal-dialog>
-            <div class=modal-content>
-              <div class=modal-header>
-                <button class=close type=button data-dismiss=modal>×</button>
-                <img src=images/y1.jpg alt=" "class=img-responsive>
-                <h5>Drone racing</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                	<br><center><a href="https://goo.gl/forms/Az7HhDPA2exhyxuI2" class="register">Register Now</a></center>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+          	<div class="intro">
+              <div class="intro--banner">
+                <h1>Your best<br>technology<br>experience</h1>
+                <button class="cta">Register Now
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>Have Fun</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Be Techno Geek</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Explore More</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
               </div>
             </div>
-          </div>
-        </div>
-        <h4>Drone Racing</h4>
-      </div>
-      <div class="col-md-3 class-grid">
-        <div class="class-grid-img hvr-sweep-to-top"><img src=images/x2.jpg alt="">
-          <div class=caption>
-            <p data-target=#myModalc2 data-toggle=modal href=# style="font-family:MyriadPro-Semibold;font-size:1.4em;font-color:#fff">Learn More
-          </div>
-        </div>
-        <div class="fade modal" id=myModalc2 role=dialog tabindex=-1>
-          <div class=modal-dialog>
-            <div class=modal-content>
-              <div class=modal-header>
-                <button class=close type=button data-dismiss=modal>×</button>
-                <img src=images/y2.jpg alt=" "class=img-responsive>
-                <h5>Robo Wars</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                	<br><center><a href="https://goo.gl/forms/Az7HhDPA2exhyxuI2" class="register">Register Now</a></center>
+          </li>
+          
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+              	<h2>About TXP</h2>
+                <p style="width: 50%;">In the world full of infinite possibilities and opportunities, there lies a whole lot of innovators, tech enthusiasts or geeks who are just waiting for a chance to do something magical to show their talent. With the aim that technology reaches every hand, the IT and CS department of S.K. Somaiya kick starts its first tech fest extending invitation to all colleges for participation.</p><br>
+                <a href="#" class="ctaevent">Our Events
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3>Technology</h3>
+                </a>
+                <a href="#0">
+                  <h3>Intelligence</h3>
+                </a>
+                <a href="#0">
+                  <h3>Excellence</h3>
+                </a>
               </div>
             </div>
-          </div>
-        </div>
-        <h4>Robo Wars</h4>
-      </div>
-      <div class="col-md-3 class-grid">
-        <div class="class-grid-img hvr-sweep-to-top"><img src=images/x3.jpg alt="">
-          <div class=caption>
-            <p data-target=#myModalc3 data-toggle=modal href=# style="font-family:MyriadPro-Semibold;font-size:1.4em;font-color:#fff">Learn More
-          </div>
-        </div>
-        <div class="fade modal" id=myModalc3 role=dialog tabindex=-1>
-          <div class=modal-dialog>
-            <div class=modal-content>
-              <div class=modal-header>
-                <button class=close type=button data-dismiss=modal>×</button>
-                <img src=images/y3.jpg alt=" " class=img-responsive>
-                <h5>RC Racing</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                	<br><center><a href="https://goo.gl/forms/Az7HhDPA2exhyxuI2" class="register">Register Now</a></center>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+<a href="#_" class="lightbox" id="img1">
+    <img src="assets/img/events.jpg">
+</a>
+<a href="#_" class="lightbox" id="img2">
+  <img src="assets/img/events.jpg">
+</a>
+<a href="#_" class="lightbox" id="img3">
+  <img src="assets/img/events.jpg">
+</a>
+              <h2>Our Events</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#img1">
+                      <div class="slider--item-image">
+                        <img src="assets/img/fun.jpg" alt="Fun Events">
+                      </div>
+                      <p class="slider--item-title">Fun Events</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#img2">
+                      <div class="slider--item-image">
+                        <img src="assets/img/tech.jpg" alt="Tech Events">
+                      </div>
+                      <p class="slider--item-title">Tech Events</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#img3">
+                      <div class="slider--item-image">
+                        <img src="assets/img/cultural.jpg" alt="Cultural Events">
+                      </div>
+                      <p class="slider--item-title">Cultural Events</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <h4>RC Racing</h4>
-      </div>
-      <div class="col-md-3 class-grid">
-        <div class="class-grid-img hvr-sweep-to-top"><img src=images/x4.jpg alt="">
-          <div class=caption>
-            <p data-target=#myModalc4 data-toggle=modal href=# style="font-family:MyriadPro-Semibold;font-size:1.4em;font-color:#fff">Learn More
-          </div>
-        </div>
-        <div class="fade modal"id=myModalc4 role=dialog tabindex=-1>
-          <div class=modal-dialog>
-            <div class=modal-content>
-              <div class=modal-header>
-                <button class=close type=button data-dismiss=modal>×</button>
-                <img src=images/y4.jpg alt=" "class=img-responsive>
-                <h5>Exhibition</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                	<br><center><a href="https://goo.gl/forms/Az7HhDPA2exhyxuI2" class="register">Register Now</a></center>
+
+        
+
+
+          </li>
+          <li class="l-section section">
+            <div class="sponsor">
+              <h2>Our Sponsors</h2>
+              <div class="sponsor--lockup">
               </div>
             </div>
-          </div>
-        </div>
-        <h4>Exhibition</h4>
-      </div>
-      <div class=clearfix></div>
-    </div>
-  </div>
-</div>
-<div class=main id=plans>
-  <div id=particles-js></div>
-  <div class=priceing-table-main>
-    <h3 class="title-w3 three">TechXposure Presents</h3>
-    <p class=sub-text style="font-size: 45px; font-family: Protos;">
-    <div class=priceing-table-grids>
-      <div class="col-md-3 price-grid">
-        <div class="agile price-block">
-          <div class="price-gd-top pric-clr1">
-            <a href="events/index.html">
-            	<img src="images/c1.jpg" width="100%" height="100%">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 price-grid">
-        <div class="agile price-block">
-          <div class="price-gd-top pric-clr2">
-            <a href="events/index.html">
-            	<img src="images/c2.jpg" width="100%" height="100%">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 price-grid lost">
-        <div class="agile price-block">
-          <div class="price-gd-top pric-clr3">
-            <a href="events/index.html">
-            	<img src="images/c3.jpg" width="100%" height="100%">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 price-grid lost wthree">
-        <div class="agile price-block">
-          <div class="price-gd-top pric-clr4">
-            <a href="events/index.html">
-            	<img src="images/c4.jpg" width="100%" height="100%">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class=clearfix></div>
-    </div>
-  </div>
-</div>
-<div class="pop-up">
- <div id="small-dialog" class="mfp-hide book-form">
-    <h4>Sign Up Form </h4>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd60qRPbSvNxNJquTk-pmqO13r-iukcjj7n5n1h7r0Lxh5Tew/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-  </div>
-</div>
-<div class=testmonials id=speakers>
-  <div id=particles-js1></div>
-  <div class=client-top>
-    <h3 class="title-w3 three">Talks at techxposure</h3>
-    <p class=sub-text>
-    <div class=slider>
-      <div class=callbacks_container>
-        <ul class=rslides id=slider3>
-          <li>
-            <div class=agileits-clients>
-              <div class=client_agile_info>
-                <div class=c-img><i class="fa fa-quote-right"></i></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                <h4><img src=images/m1.jpg alt="">Alice Lengthorn</h4>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <a href="https://goo.gl/maps/7MvbzHAx82G2">S. K. Somaiya College Of Arts, Science And Commerce, Vidya Nagar, Vidyavihar - 77</a>
+                    <a href="mailto:Techxposuretxp@gmail.com">techxposuretxp@gmail.com</a>
+                    <a href="tel:+91-98765-43210">PR Head : +91-98765-43210</a>
+                    <a href="tel:+91-99632-14785">Marketing Head : +91-99632-14785</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://facebook.com/techxposure">Facebook</a></li>
+                    <li><a href="https://instagram.com/techxposure_">Instagram</a></li>
+                    <li><a href="https://www.snapchat.com/add/techxposure">Snapchat</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          <li>
-            <div class=agileits-clients>
-              <div class=client_agile_info>
-                <div class=c-img><i class="fa fa-quote-right"></i></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                <h4><img src=images/m2.jpg alt=""> Martin Pal</h4>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2 class="regtitle">Fill Up Your Registration</h2>
+              <form class="work-request" name="submit-to-google-sheet">
+                <div class="work-request--information">
+                  <div class="information-event">
+                    <select name="event" required="required">
+                      <option value="" selected disabled hidden>Select Event</option>
+                      <option value="Fun Events">Fun Events</option>
+                      <option value="Tech Events">Tech Events</option>
+                      <option value="Cultural Events">Cultural Events</option>
+                    </select>
+                    <label for="event">Event</label>
+                  </div>
+                  <div class="information-name">
+                    <input type="text" value="" name="name" onkeyup="this.setAttribute('value', this.value);" required="required">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input type="email" value="" name="email" onkeyup="this.setAttribute('value', this.value);" >
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="information-phone">
+                    <input type="text" value="" name="phone" onkeyup="this.setAttribute('value', this.value);" required="required">
+                    <label for="phone">Phone</label>
+                  </div>
+                </div>
+                    <input type="submit" class="submit" value="Submit">
+                    
+              </form>
+              <div class="js-success-message is-hidden">
+                <center>
+                  <h1>Success!</h1>
+                </center>
               </div>
-              <div class=clearfix></div>
             </div>
-          <li>
-            <div class=agileits-clients>
-              <div class=client_agile_info>
-                <div class=c-img><i class="fa fa-quote-right"></i></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                <h4><img src=images/m3.jpg alt="">MARTIN NIXON</h4>
-              </div>
-            </div>
+          </li>
         </ul>
       </div>
     </div>
   </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>About</li>
+    <li>Events</li>
+    <li>Sponsors</li>
+    <li>Contact</li>
+    <li>Register</li>
+  </ul>
 </div>
-<div class=gallery id=gallery>
-  <h3 class=title-w3>Our Sponsors...</h3>
-  <p class=sub-text>We are proud to get sponsorship from ...
-
-
-<div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="openCity('London')">Title Sponsors</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Media Sponsors</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Associate Sponsors</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Associate Sponsors</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Associate Sponsors</button>
-</div><br><br>
-
-<div id="London" class="w3-container city">
-  <h2>Title Sponsors</h2>
-  <p></p>
-</div>
-
-<div id="Paris" class="w3-container city" style="display:none">
-  <h2>Media Sponsors</h2>
-  <p></p>
-</div>
-
-<div id="Tokyo" class="w3-container city" style="display:none">
-  <h2>Associate Sponsors</h2>
-  <p></p>
-</div>
-
-</div>
-
-<div class=contact id=contact>
-  <div id=particles-js2></div>
-  <div class=contact-top>
-    <h3 class="title-w3 con">Contact Us</h3>
-    <p class=sub-text>Leave a message to us...
-    <form action="https://script.google.com/macros/s/AKfycbyzi7WI2BvZFRm4bIkBIXaZ3U0_byrcJH1t72nxf7JV9e6faMwu/exec" method="post" class="contact_form slideanim">
-      <div class="message">
-        <div class="col-md-6 col-sm-6 grid_6 c1">
-          <input type="text" class="margin-right" Name="Name" placeholder="Name" required="">
-          <input type="email" Name="Email" placeholder="Email" required="">
-          <input type="text" class="margin-right" Name="Phone_Number" placeholder="Phone Number" required="">
-        </div>
-        <div class="col-md-6 c1 col-sm-6 grid_6">
-          <textarea name=Message placeholder=Message required></textarea>
-        </div>
-        <div class=clearfix></div>
-      </div>
-      <input type=submit value="SEND MESSAGE">
-    </form>
-    <section class=social>
-      <ul>
-        <li><a href=https://www.facebook.com/techxposure/ class="icon fb"><i class="fa fa-facebook"></i></a>
-        <li><a href=https://www.google.com class="icon gp"><i class="fa fa-google-plus"></i></a>
-        <li><a href=https://www.instagram.com/techxposure_/ class="icon gp"><i class="fa fa-instagram"></i></a>
-      </ul>
-    </section>
-  </div>
-</div>
-<div class=agile-contact>
-  <div class="col-md-6 contact-map-right">
-    <div id=map></div>
-  </div>
-  <div class="col-md-6 left-contact">
-    <div class=cont-top>
-      <h5><i class="fa fa-envelope"aria-hidden=true></i>Email</h5>
-      <a href=mailto:techxposuretxp@gmail.com>techxposuretxp@gmail.com</a></div>
-    <div class=con-bot>
-      <div class=left-bw3>
-        <h5><i class="fa fa-map-marker"aria-hidden=true></i>Address</h5>
-        <p>S. K. Somaiya College Of Arts, Science And Commerce, Vidyanagar, Vidyavihar - 77.
-      </div>
-      <div class=right-bw3>
-        <h5><i class="fa fa-phone"aria-hidden=true></i>Phone</h5>
-        <p><a href=tel:+910000000000><font color=#fff>Telephone : +910000000000</font></a>
-        <p><a href=tel:+912200000000><font color=#fff>+91 22 0000 0000</font></a>
-        <p>
-      </div>
-    </div>
-  </div>
-  <div class=clearfix></div>
-</div>
-<div class=copy-right>
-  <p>© 2017 TechXposure - Somaiya Vidyavihar. All Rights Reserved<br>
-    Best Viewed in 1366 x 768 Resolution with <a href=http://chrome.google.com>Google Chrome</a> | <a href=http://www.mozilla.com>Mozilla Firefox</a> | <a href=https://www.microsoft.com/en-in/windows/microsoft-edge>Microsoft Edge</a>
-</div>
-<a href=# id=toTop style=display:block></a><script src=js/jquery-2.2.3.min.js></script><script src=js/particles.js></script><script src=js/app.js></script><script src=js/responsiveslides.min.js></script><script>$(function(){$("#slider4").responsiveSlides({auto:!0,pager:!0,nav:!1,speed:500,namespace:"callbacks",before:function(){$(".events").append("<li>before event fired.</li>")},after:function(){$(".events").append("<li>after event fired.</li>")}})})</script><script>$(function(){$("#slider3").responsiveSlides({auto:!0,pager:!1,nav:!0,speed:500,namespace:"callbacks",before:function(){$(".events").append("<li>before event fired.</li>")},after:function(){$(".events").append("<li>after event fired.</li>")}})})</script><script src=js/main.js></script><script src=js/jquery.magnific-popup.js></script><script>$(document).ready(function(){$(".popup-with-zoom-anim").magnificPopup({type:"inline",fixedContentPos:!1,fixedBgPos:!0,overflowY:"auto",closeBtnInside:!0,preloader:!1,midClick:!0,removalDelay:300,mainClass:"my-mfp-zoom-in"})})</script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdcariGl5wrR1W6XaBKl217639PnRuA-U"></script><script>function init(){var e={zoom:15,center:new google.maps.LatLng(19.0759561,72.899031),styles:[{elementType:"geometry",stylers:[{color:"#f5f5f5"}]},{elementType:"labels.icon",stylers:[{visibility:"off"}]},{elementType:"labels.text.fill",stylers:[{color:"#616161"}]},{elementType:"labels.text.stroke",stylers:[{color:"#f5f5f5"}]},{featureType:"administrative.land_parcel",elementType:"labels.text.fill",stylers:[{color:"#bdbdbd"}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#eeeeee"}]},{featureType:"poi",elementType:"labels.text.fill",stylers:[{color:"#757575"}]},{featureType:"poi.park",elementType:"geometry",stylers:[{color:"#e5e5e5"}]},{featureType:"poi.park",elementType:"labels.text.fill",stylers:[{color:"#9e9e9e"}]},{featureType:"road",elementType:"geometry",stylers:[{color:"#ffffff"}]},{featureType:"road.arterial",elementType:"labels.text.fill",stylers:[{color:"#757575"}]},{featureType:"road.highway",elementType:"geometry",stylers:[{color:"#dadada"}]},{featureType:"road.highway",elementType:"labels.text.fill",stylers:[{color:"#616161"}]},{featureType:"road.local",elementType:"labels.text.fill",stylers:[{color:"#9e9e9e"}]},{featureType:"transit.line",elementType:"geometry",stylers:[{color:"#e5e5e5"}]},{featureType:"transit.station",elementType:"geometry",stylers:[{color:"#eeeeee"}]},{featureType:"water",elementType:"geometry",stylers:[{color:"#c9c9c9"}]},{featureType:"water",elementType:"labels.text.fill",stylers:[{color:"#9e9e9e"}]}]},l=document.getElementById("map"),t=new google.maps.Map(l,e);new google.maps.Marker({position:new google.maps.LatLng(19.0759561,72.899031),map:t})}google.maps.event.addDomListener(window,"load",init)</script><script src=js/jquery.magnific-popup.js></script><script src=js/move-top.js></script><script src=js/easing.js></script><script>jQuery(document).ready(function(t){t(".scroll").click(function(e){e.preventDefault(),t("html,body").animate({scrollTop:t(this.hash).offset().top},1e3)})})</script><script>$(document).ready(function(){$().UItoTop({easingType:"easeOutQuart"})})</script><script src=js/bootstrap.js></script>
-<script>
-function openCity(cityName) {
-    var i;
-    var x = document.getElementsByClassName("city");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    document.getElementById(cityName).style.display = "block";
-}
-</script>
-<script>
-    $('document').ready(function () {
-        $('body').jmspinner();
-    });
-    $(window).on("load", function () {
-        $('body').jmspinner(false);
-    });
-              </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/hammer.min.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+</html>
