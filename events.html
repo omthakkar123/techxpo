@@ -1,232 +1,232 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Caption Hover Animations</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style type="text/css">
-	body{
-		font-family: "Source Sans Pro";
-		background: #0c0c0c;
-		text-align: center;
-	}
-
-	.events{
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		flex-wrap: wrap;
-		padding: 0px 0px 0px 0px;
-	}
-
-	.events li{
-		float: left;
-		padding: 0px;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.events li:hover .caption{
-		opacity: 1;
-		transform: translateY(-100px);
-		-webkit-transform:translateY(-100px);
-		-moz-transform:translateY(-100px);
-		-ms-transform:translateY(-100px);
-		-o-transform:translateY(-100px);
-	}
-
-	.events li:hover img{
-		opacity: 1;
-		transform: translateY(-40px);
-		-webkit-transform:translateY(-40px);
-		-moz-transform:translateY(-40px);
-		-ms-transform:translateY(-40px);
-		-o-transform:translateY(-40px);
-
-	}
-
-
-	.events img{
-		margin: 0px;
-		padding: 0px;
-		float: left;
-		z-index: 0;
-	}
-
-
-	.events .caption{
-		cursor: pointer;
-		position: absolute;
-		opacity: 0;
-		top:300px;
-		-webkit-transition:all 0.15s ease-in-out;
-		-moz-transition:all 0.15s ease-in-out;
-		-o-transition:all 0.15s ease-in-out;
-		-ms-transition:all 0.15s ease-in-out;
-		transition:all 0.15s ease-in-out;
-
-	}
-
-	.events img{
-		-webkit-transition:all 0.15s ease-in-out;
-		-moz-transition:all 0.15s ease-in-out;
-		-o-transition:all 0.15s ease-in-out;
-		-ms-transition:all 0.15s ease-in-out;
-		transition:all 0.15s ease-in-out;
-
-	}
-	.events .blur{
-		background-color: rgba(142, 68, 173,0.95);
-		height: 300px;
-		width: 400px;
-		z-index: 5;
-		position: absolute;
-	}
-
-	.events .caption-text h1{
-		padding: 0px;
-		margin: 0px;
-		text-transform: uppercase;
-		font-size: 18px;
-	}
-	.events .caption-text{
-		z-index: 10;
-		color: #fff;
-		position: absolute;
-		width: 400px;
-		height: 300px;
-		text-align: center;
-		top:20px;
-	}
-	</style>
+    <meta charset="utf-8">
+    <title>Caption Hover Animations</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            font-family: "Source Sans Pro";
+            background: #d11316;
+            text-align: center;
+        }
+        
+        .events {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0px 0px 0px 0px;
+        }
+        
+        .events li {
+            float: left;
+            padding: 0px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .events li:hover .caption {
+            opacity: 1;
+            transform: translateY(-100px);
+            -webkit-transform: translateY(-100px);
+            -moz-transform: translateY(-100px);
+            -ms-transform: translateY(-100px);
+            -o-transform: translateY(-100px);
+        }
+        
+        .events li:hover img {
+            opacity: 1;
+            transform: translateY(-40px);
+            -webkit-transform: translateY(-40px);
+            -moz-transform: translateY(-40px);
+            -ms-transform: translateY(-40px);
+            -o-transform: translateY(-40px);
+        }
+        
+        .events img {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            z-index: 0;
+        }
+        
+        .events .caption {
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            top: 300px;
+            -webkit-transition: all 0.15s ease-in-out;
+            -moz-transition: all 0.15s ease-in-out;
+            -o-transition: all 0.15s ease-in-out;
+            -ms-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out;
+        }
+        
+        .events img {
+            -webkit-transition: all 0.15s ease-in-out;
+            -moz-transition: all 0.15s ease-in-out;
+            -o-transition: all 0.15s ease-in-out;
+            -ms-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out;
+        }
+        
+        .events .blur {
+            background-color: rgba(142, 68, 173, 0.95);
+            height: 300px;
+            width: 400px;
+            z-index: 5;
+            position: absolute;
+        }
+        
+        .events .caption-text h1 {
+            padding: 0px;
+            margin: 0px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        
+        .events .caption-text {
+            z-index: 10;
+            color: #fff;
+            position: absolute;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            top: 20px;
+        }
+    </style>
 </head>
+
 <body>
-	<h1>
-		Events TXP 2019
-	</h1>
-<ul class="events">
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-	<li>
-		<img src="assets/img/event.jpg" alt="">
-		<div class="caption">
-			<div class="blur"></div>
-			<div class="caption-text">
-				<h1>Amazing Caption</h1>
-				<p>Whatever It Is - Always Awesome</p>
-			</div>
-		</div>
-	</li>
-</ul>
+    <h1>
+        Events TXP 2019
+    </h1>
+    <ul class="events">
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="assets/img/event.jpg" alt="">
+            <div class="caption">
+                <div class="blur"></div>
+                <div class="caption-text">
+                    <h1>Amazing Caption</h1>
+                    <p>Whatever It Is - Always Awesome</p>
+                </div>
+            </div>
+        </li>
+    </ul>
 </body>
+
 </html>
