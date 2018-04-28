@@ -22,11 +22,11 @@
 
 .left {
   left:0;
-  animation: position1 2s linear infinite;
+  animation: position1 1s linear infinite;
 }
 .right {
   right:0;
-  animation: position2 2s linear infinite;
+  animation: position2 1s linear infinite;
 }
 .ball,
 .ballhit {
@@ -35,7 +35,7 @@
   border-radius:50%;
   background:white;
   position:absolute;
-  animation: bounce 2s linear infinite;
+  animation: bounce 1s linear infinite;
 }
 .ballhit {
   padding:4px;
@@ -44,7 +44,7 @@
   background:#d11316;
   border:2px #d11316 solid;
   z-index:-1;
-  animation: bounce2 2s linear infinite;
+  animation: bounce2 1s linear infinite;
 }
 @keyframes position1 {
     0% {top:-60px;}
