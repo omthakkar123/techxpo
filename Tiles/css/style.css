@@ -1,0 +1,121 @@
+body {
+    background-color: #000000;
+}
+
+.modal {
+    display: none;
+    padding: 10%;
+    width: 79%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.win {
+    height: 50px;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Roboto Mono";
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.game {
+    background-color: #000000;
+    width: 300px;
+    height: 300px;
+    user-select: none;
+    border: #ffffff solid 5px;
+}
+
+.side {
+    background-color: #000000;
+    width: 300px;
+    user-select: none;
+    display: block;
+}
+
+.block {
+    transition: background-color 0.3s, transform 0.2s;
+    float: left;
+}
+
+.b1:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.b2:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+
+.row {
+    width: 300px;
+    overflow: hidden;
+    overflow-x: hidden;
+    perspective: 300px;
+}
+
+.b1 {
+    transform: rotateY(0deg);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+    border-color: #000000;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.b2 {
+    transform: rotateY(180deg);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto Mono";
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: #555;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto Mono";
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#moves {
+    color: #aaaaaa;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto Mono";
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 20px
+}
