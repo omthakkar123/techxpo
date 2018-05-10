@@ -12,7 +12,7 @@ function toggle(a, b) {
     if (a > 0) { $(document.getElementsByClassName('block')[(a - 1) + (b * 5)]).toggleClass("b1 b2") }
     if (b < 4) { $(document.getElementsByClassName('block')[a + ((b + 1) * 5)]).toggleClass("b1 b2") }
     if (b > 0) { $(document.getElementsByClassName('block')[a + ((b - 1) * 5)]).toggleClass("b1 b2") }
-    if (document.getElementsByClassName('b1').length == 25) {
+    if (document.getElementsByClassName('b1').length == 25 || document.getElementsByClassName('b2').length == 25) {
         document.getElementById('winmodal').style.display = 'block';
     }
 }
